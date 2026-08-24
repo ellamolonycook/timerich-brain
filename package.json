@@ -11,7 +11,7 @@
     "test:watch": "vitest",
     "typecheck": "tsc --noEmit",
     "demo": "tsx scripts/rank-demo.ts",
-    "dev": "wrangler dev",
+    "dev": "node api.js && wrangler dev",
     "deploy": "wrangler deploy"
   },
   "devDependencies": {
